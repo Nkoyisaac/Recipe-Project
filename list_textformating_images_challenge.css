@@ -1,0 +1,145 @@
+.navi li{
+    background-color: rgb(219, 203, 203);
+    display: inline-block;
+    padding: 0 50px;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .navi li {
+      width: 30%;  
+      float: left;
+      background-color: gray;
+      margin-left: 0%;
+      text-align: left;
+    }
+  }
+.navi{
+    width: 100%;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 5%;
+    overflow: hidden;
+}
+@media screen and (max-width: 600px){
+    .navi{
+        background-color: black;
+    }
+}
+.block1{
+    border-style: dashed;
+    width: 100%;
+    display: inline-block;
+    border-radius: 5%;
+}
+@media screen and (max-width: 600px){
+     .block1{
+         float: left;
+         width: 100%;
+         display: block;
+         background-color: blue;
+         
+     }
+     
+}
+#head{
+    float: right;
+    width: 48%;
+    border-style: inset;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-family: poppins;
+    border-radius: 5%;
+}
+@media screen and (max-width: 600px){
+    #head{
+        float: none;
+        width: 90%;
+    }
+}
+.tab{
+    clear: both;
+    float: right;
+    width: 48%;
+    display: inline-block;
+    border-style: inset;
+    margin-top: 40px;
+    margin-right: 20px;
+    border-radius: 6%;
+}
+@media screen and (max-width: 600px){
+    .tab{
+        float: none;
+        width: 90%;
+    }
+}
+.img{
+    float: left;
+    border-style: inset;
+    border-radius: 3%;
+    width: 47%;
+    margin-top: -200px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+@media screen and (max-width: 600px){
+    .img{
+        clear: both;
+        float: none;
+        width: 20%;
+        height: 20%;
+        margin: 10px;
+        padding: auto;
+    }
+}
+.block2{
+    width: 100%;
+    display: inline-block;
+    border-style: dashed;
+    margin: auto;
+    border-radius: 5%;
+}
+@media screen and (max-width: 600px){
+    .block2{
+        width: 100%;
+    }
+}
+#sidebar{
+    float: left;
+    width: 20%;
+    height: 25%;
+    padding: 20px;
+}
+@media screen and (max-width: 600px){
+    #sidebar{
+        float: none;
+        width: 90%;
+        text-align: center;
+    }
+}
+#arti{
+    float: right;
+    width: 77%;
+    height: 25%;   
+}
+@media screen and (max-width: 600px){
+    #arti{
+        float: none;
+        width: 90%;
+        text-align: center;
+
+    }
+}
+.block3{
+    background-color: black
+    width: 100%;
+    display: inline-block;
+    border-radius: 5%;
+}
+.foot{
+    clear: both;
+    height: 50px;
+    padding: 15px;
+    border-style: dashed;
+    border-radius: 5%;
+}
